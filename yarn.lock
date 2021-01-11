@@ -12,6 +12,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prettier@npm:^2":
+  version: 2.1.6
+  resolution: "@types/prettier@npm:2.1.6"
+  checksum: c78a6406b0b0d167c3285c84ca63308028517bc772b16960d959ae0ab8947f58c33aac4ba4485ac878f114be230764f7d5582a43115727ba68e5fb59360d5f37
+  languageName: node
+  linkType: hard
+
 "example@workspace:packages/example":
   version: 0.0.0-use.local
   resolution: "example@workspace:packages/example"
@@ -23,9 +30,20 @@ __metadata:
   resolution: "fullstack@workspace:."
   dependencies:
     "@types/node": ^14.14.20
+    "@types/prettier": ^2
+    prettier: 2.2.1
     typescript: ^4.1.3
   languageName: unknown
   linkType: soft
+
+"prettier@npm:2.2.1":
+  version: 2.2.1
+  resolution: "prettier@npm:2.2.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 92c6c9f4b87eba1f28466edee57dd18c80d00b858edda77d46d1950d20e6e302b68ee255fc91133ba931e63c4577b5ae30da194d9626a8f3c0177778b91bf056
+  languageName: node
+  linkType: hard
 
 typescript@^4.1.3:
   version: 4.1.3
